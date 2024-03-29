@@ -1,0 +1,26 @@
+.movie-item-wrapper {
+    div {
+        display: flex;
+        flex-direction: column;
+        span {
+            font-size: 13px;
+        }
+        span:first-child {
+            margin: 20px 0 25px;
+            font-size: 15px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        span:last-child {
+            margin: 10px 0 38px;
+        }
+    }
+    img {
+        width: 180px;
+        height: 260px;
+        object-fit: cover;
+        border-radius: 20px;
+        box-shadow: 0px 5px 25px 0px rgba(119, 119, 119, 0.08);
+    }
+ 
+}

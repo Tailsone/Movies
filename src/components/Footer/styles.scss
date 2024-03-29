@@ -1,0 +1,19 @@
+.footer-wrapper {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    div {
+        display: flex;
+        flex-direction: column;
+        text-align: end;
+        span {
+            font-weight: 700;
+        }
+        span:first-child {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+    }
+}

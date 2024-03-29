@@ -1,0 +1,25 @@
+.header-wrapper {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    a:nth-child(-n + 3) {
+        margin-right: 60px;
+    } 
+    a:hover {
+            color: #E59C9C;
+    }
+    .inactive {
+        color: #fff;
+    }
+    .linkActive {
+        color: #E59C9C;
+        text-decoration-line: underline;
+        :hover {
+            text-decoration-line: underline;
+        }
+    }
+}
+
+

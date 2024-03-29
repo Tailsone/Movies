@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  width:100vw;
+  overflow-x:hidden;
+  background: url('assets/images/abstract.png'), rgba(27, 27, 27, .9) 0px -0.137px / 162.464% 100.43% no-repeat;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+a, a:hover, a:active {
+  text-decoration: none;
+  color: #333333;
+}
